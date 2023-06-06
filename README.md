@@ -10,16 +10,15 @@ Classic Tic-Tac-Toe Game created with Html, Css & JavaScript
 
 ### Through the GitHub page
 
-Check the live version <a href="https://yatoaki.github.io/tic-tac-toe-js/">Here</a>
+Check the live version <a >Here</a>
 
 ### On your local machine
 
 1. First, clone this repo to your local mechine with __git__ command.
-* `git clone https://github.com/YatoAki/tic-tac-toe-js`
+* `git clone https://github.com/Vishal03-sv/Tic-Tac-Toe-game`
 2. Go to the cloned source code dictionary.
 3. Open the `index.html` file in your broswer.
 
-## Game Architecture - `script.py`
 
 ### player Factory Function
 
