@@ -1,0 +1,115 @@
+:root{
+  --dark-green: darkgreen;
+  --light-yellow: #F2CD5D;
+  --light-pink: #D9B8C4;
+  --dark-pink: #957186;
+  --white: #fff;
+  --light-green: #9fff9c;
+  --light-red: #ff9c9c;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-green);
+  font-family: cursive;
+  color: var(--white);
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+button{
+  border: none;
+  /* color: inherit; */
+  color: darkgreen;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Grid */
+
+
+.grid{
+  display: grid;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap:10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.grid-ele{
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark-green);
+  font-size: 80px;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.grid-ele:hover{
+  filter: brightness(87%);
+  transform: scale(1.01);
+}
+
+/* Marks */
+
+.mark{
+  padding: 20px;
+  font-size: 30px;
+}
+
+.flex-grow{
+  flex-grow: 1;
+}
+
+footer{
+  padding: 10px;
+}
+
+footer a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#action{
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.1s ease-out;
+}
+
+#action:hover{
+  transform: scale(1.03);
+}
+
+.turn-green{
+  background-color: var(--light-green);
+  color: white;
+}
+
+.turn-red{
+  background-color: var(--light-red);
+  color: white;
+}
